@@ -1,24 +1,29 @@
 body {
-  background-color: #f5f5f5;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: #0A1828;
 }
 
 .container {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
-  max-width: 100%;
-  max-height: 100%;
-  padding: 20px;
+  max-width: 80%;
+  padding: 40px;
+  animation: fadeIn 1s ease;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgba(23, 133, 130, 0.1), #66ccff);
 }
 
+
 h1 {
-  color: #333;
+  color: #BFA181;
   font-size: 32px;
-  margin-top: 0;
+  margin-top: 50;
+  margin-bottom: 30px;
   text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #year-list {
@@ -28,63 +33,62 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #year-list li {
   margin-right: 10px;
 }
 
-#year-list li a {
-  background-color: #333;
-  color: #fff;
+#year-list li button {
+  font-size: 16px;
   padding: 10px 15px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+  background-color: #BFA181;
+  color: #161212;
+  border-radius: 3px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-#year-list li a:hover {
-  background-color: #666;
+#year-list li button:hover {
+  background-color: #1b959e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 #text-container {
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  top: 0;
+  left: 0;
+  border: #333 1px solid;
+  width: 90%;
   padding: 20px;
-  margin-top: 20px;
   display: none;
   color: #333;
   font-size: 18px;
   line-height: 1.5;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.fade-out {
-  animation-name: fadeOut;
-  animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
 
-@keyframes fadeOut {
+.line {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
   from {
-    opacity: 1;
+    opacity: 0;
+    transform: translateY(-20px);
   }
   to {
-    opacity: 0;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
+
+#text-container {
+  display: block;
+  animation: fadeIn 1s ease forwards;
+}
+
 /* CSS Styles for CV Text */
 .cv-text {
   font-family: Arial, sans-serif;
