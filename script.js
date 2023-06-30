@@ -28,7 +28,7 @@ function getTextByYear(year) {
           <li class="line">Tehnička i prodajna pomoć ostalim agentima u pozivnom centru pri pozivima, unos prodajnih zahtjeva, odrađivanje administrativnih poslova, održavanje prodajnih i tehničkih Coachinga, analiza statistika i pomoć agentima u njihovom radu.</li>
           <li class="line">Zamjena Team Leadera te održavanje Team meetinga i huddle-ova.</li>
         </ul>
-      </div>`;
+      </div>`
     case 2015-2017:
       return `<div class="cv-text">
         <h3 class="line">Hrvatski telekom d.d.</h3>
@@ -38,7 +38,7 @@ function getTextByYear(year) {
           <li class="line">Otklon grešaka na drugoj razini, telefonska podrška tehničarima na terenu</li>
           <li class="line">Korištenje alata, udaljena dijagnostika, te udaljeni otklon poteškoća</li>
         </ul>
-      </div>`;
+      </div>`
     case 2017-2021:
       return `<div class="cv-text">
         <h3 class="line">Hrvatski telekom d.d.</h3>
@@ -50,7 +50,7 @@ function getTextByYear(year) {
           <li class="line">Komunikacija sa strankama, organizacija posla, te aktivna prodaja usluga</li>
           <li class="line">Obuka novih zaposlenika</li>
         </ul>
-      </div>`;
+      </div>`
     case 2021-2022:
       return `<div class="cv-text">
         <h3 class="line">Libratel d.o.o.</h3>
@@ -61,7 +61,7 @@ function getTextByYear(year) {
           <li class="line">Mjerenje i otklon kompleksnih grešaka sa mjernim instrumentom</li>
           <li class="line">Obuka novih zaposlenika</li>
         </ul>
-      </div>`;
+      </div>`
     case 2022:
       return `<div class="cv-text">
         <h3 class="line">Libratel d.o.o.</h3>
@@ -73,7 +73,7 @@ function getTextByYear(year) {
           <li class="line">Komunikacija i organizacija sa drugim voditeljima, te sa zaposlenicima</li>
           <li class="line">Naručivanje potrebnog materijala, kontrola skladišta</li>
         </ul>
-      </div>`;
+      </div>`
     case 2023:
       return `<div class="cv-text">
         <h3 class="line">Ericsson Nikola Tesla Servisi d.o.o.</h3>
@@ -84,14 +84,15 @@ function getTextByYear(year) {
           <li class="line">Izdavanje, preuzimanje i naručivanje opreme za 20+ zaposlenika</li>
           <li class="line">Koordinacija sa drugim voditeljima i zaposlenicima, te ispomoć u organizaciji posla</li>
         </ul>
-      </div>`;
+      </div>`
     case 1:
       return `<h3>Što trenutno radim ?</h3>
       <ul>
+        <li class="line">Tehnologije sa kojima radim su HTML, CSS, JS i ReactJS</li>
         <li class="line">Završen tečaj za Front-end developera na Algebri</li>
         <li class="line">Izrađujem web stranicu za frizerski salon</li>
         <li class="line">Vodim skladište</li>
-      </ul>`;
+      </ul>`
   }
 }
 
