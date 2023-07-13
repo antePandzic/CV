@@ -125,3 +125,8 @@ h1 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
+
+.link {
+  font-size: 30px;
+  color:rgba(0, 0, 0, 0.822);
+}

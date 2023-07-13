@@ -86,13 +86,18 @@ function getTextByYear(year) {
         </ul>
       </div>`
     case 1:
-      return `<h3>Što trenutno radim ?</h3>
+      return `<h3>O meni</h3>
+      <ul>
+        <li class="line">Oduvijek sam imao želju biti developer i sada sam u najboljoj fazi za to i postati. Kroz dosadašnje poslove sam naučio upravljati svojim vremenom, oganizirati posao na dnevnoj, tjednoj ili mjesečnoj bazi. Naučio sam planirati i voditi financijske aspekte posla, te mentorirati i prenositi znanje kolegama, kao i upravljati sa više timova. Svakodnevno učim, razvijam svoje vještine i napredujem kao Front-end developer.</li>
+      </ul>
+      <h3>Što trenutno radim?</h3>
       <ul>
         <li class="line">Tehnologije sa kojima radim su HTML, CSS, JS i ReactJS</li>
         <li class="line">Završen tečaj za Front-end developera na Algebri</li>
         <li class="line">Izrađujem web stranicu za frizerski salon</li>
-        <li class="line">Vodim skladište</li>
-      </ul>`
+        <li class="line">Vodim skladište na trenutnom poslu</li>
+      </ul>
+      <a href="https://github.com/antePandzic" target="_blank" class="link">Github profil</a>`
   }
 }
 
